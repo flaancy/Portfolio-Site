@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    min-width: 750px;
+}
+.heading{
+    background-color: #FF6100;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 10px; 
+    color: #FFF;    
+    font-family: 'Kumar One Outline', cursive;    
+}
+.nomeFlavio{
+	font-size: 80px;
+    margin-bottom: -23px;
+}
+.nomeFlaancy{
+    font-size: 30px;
+}
+
+.main{
+    font-family: 'Jura', sans-serif;
+}
+
+/* Style the tab buttons */
+.tablink{
+    background-color: #fff;
+    color: #353535;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+
+/* Change background color of buttons on hover */
+#botao1ID:active, #botao2ID:active, #botao2ID:active, #botao2ID:active {
+    color: white; 
+    background-color: #FF6100;
+}
+#botao1ID:hover, #botao2ID:hover, #botao3ID:hover, #botao4ID:hover {
+    background-color: #FF6100;
+    color: white;    
+}
+#botao1ID:focus, #botao2ID:focus, #botao3ID:focus, #botao4ID:focus {
+    background-color: #FF6100;
+    color: white;    
+}
+#botao1ID:target, #botao2ID:target, #botao3ID:target, #botao4ID:target {
+    background-color: #FF6100;
+    color: white;    
+}
+
+/* Set default styles for tab content */
+.tabcontent{
+    color: black;
+    display: none;
+    padding: 10px;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.bottom{
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Jura', sans-serif;
+    font-size: 15px;
+    color: black;
+    height: 150px;
+    border-top: 0.5px solid #BBBBBB;
+}
