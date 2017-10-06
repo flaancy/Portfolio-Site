@@ -19,3 +19,5 @@ function openPage(pageName, elmnt, color) {
     elmnt.style.color = "white";
     elmnt.style.backgroundColor = color; 
 }
+
+

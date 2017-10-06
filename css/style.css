@@ -62,11 +62,16 @@ body{
 .tabcontent{
     color: black;
     display: none;
-    padding: 10px;
+    padding: 85px;
     text-align: center;
     width: 700px;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
+}
+
+.dootdoot{
+    width: 250px;
+    height: 250px;
 }
 
 .bottom{
