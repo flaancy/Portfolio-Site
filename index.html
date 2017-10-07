@@ -30,34 +30,85 @@
 
 		<h1 class="nomeFlavio">Flávio Barbosa</h1>
 		<p class="nomeFlaancy">@flaancy</p>
+		<p class="local">Brasília, Brasil</p>
 
 	</div>
 
 	<div class="main">
-		<button id="botao1ID" class="tablink" onclick="openPage('botao1', this, '#FF6100')">Sobre</button>
-		<button id="botao2ID" class="tablink" onclick="openPage('botao2', this, '#FF6100')">Projetos</button>
-		<button id="botao3ID" class="tablink" onclick="openPage('botao3', this, '#FF6100')">Ferramentas</button>
+		<button id="botao1ID" class="tablink" onclick="openPage('botao1', this, '#FF6100')">About</button>
+		<button id="botao2ID" class="tablink" onclick="openPage('botao2', this, '#FF6100')">Projects</button>
+		<button id="botao3ID" class="tablink" onclick="openPage('botao3', this, '#FF6100')">Skills & Tools</button>
 		<button id="botao4ID" class="tablink" onclick="openPage('botao4', this, '#FF6100')">Contato</button>
 
 
 		<div id="botao1" class="tabcontent">
-			<h3>Sobre</h3>
+			<h3>About</h3>
 			<p>
 				Em 2017, o Congresso de Ensino, Pesquisa e Extensão chegou a sua XV edição com o tema “O Ensino Superior e o Discente do Século XXI: Realidade e Expectativas” e duração de três dias. Com palestras divididas entre asa norte e Taguatinga, o evento teve participação de diversos oradores de renome. Um deles foi André Gomyde, que abriu a noite de terça-feira (03) falando sobre suas previsões para as cidades e o ser humano do futuro. 
 			</p>
-			<img class="dootdoot" src="./img/imagemSobre.jpg">
+			<!--<img class="dootdoot" src="./img/imagemSobre.jpg">-->
 		</div>
 		<div id="botao2" class="tabcontent">
-			<h3>Projetos</h3>
-			<p>bla bla bla.</p>
+			<h3>Projects</h3>
+			<div class="projects">		
+				<div class="colunaProjetos2">
+					<p>Web</p>
+					<div class="">
+						<div class=""></div>
+					</div>					
+				</div>				
+				<div class="colunaProjetos1">
+					<p>Texts</p>
+					<div class="">
+						<div class=""></div>
+					</div>
+				</div>
+				<div class="colunaProjetos3">
+					<p>Film</p>
+					<div class="">
+						<div class=""></div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="botao3" class="tabcontent">
-			<h3>Ferramentas</h3>
-			<p>Listar programas, sites e funções</p>
+			<h3>Skills & Tools</h3>
+			<div class="skills">
+				<div class="coding">
+					<p>Coding</p>
+					<div class="">
+						<div class=""></div>
+					</div>
+				</div>
+				<div class="writing">
+					<p>Writing</p>
+					<div class="">
+						<div class=""></div>
+					</div>
+				</div>
+				<div class="ferramentas">
+					<p>Tools</p>
+					<div class="">
+						<div class=""></div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="botao4" class="tabcontent">
 			<h3>Contato</h3>
-			<p>bla bla bla.</p>
+			<br>
+			<form>
+				<p>Name:</p>
+				<input type="text" name="nomeContato" class="textosContato">
+				<p>Email:</p>
+				<input type="text" name="emailContato" class="textosContato">
+				<p>Msg:</p>
+				<input type="text" name="mensagemContato" class="textosContato">
+				<br>
+				<br>
+				<input type="submit" name="enviarContato" class="enviarContato">
+
+			</form>
 		</div>		
 
 	</div>
