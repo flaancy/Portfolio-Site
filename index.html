@@ -37,32 +37,56 @@
 		<button id="botao1ID" class="tablink" onclick="openPage('botao1', this, '#FF6100')">About</button>
 		<button id="botao2ID" class="tablink" onclick="openPage('botao2', this, '#FF6100')">Projects</button>
 		<button id="botao3ID" class="tablink" onclick="openPage('botao3', this, '#FF6100')">Skills & Tools</button>
-		<button id="botao4ID" class="tablink" onclick="openPage('botao4', this, '#FF6100')">Contato</button>
+		<button id="botao4ID" class="tablink" onclick="openPage('botao4', this, '#FF6100')">Talk to Me</button>
 
 		<div id="botao1" class="tabcontent">
 			<h3>About</h3>
+			<img class="fotoMinha" src="./img/eu.png">
 			<p>
 				Em 2017, o Congresso de Ensino, Pesquisa e Extensão chegou a sua XV edição com o tema “O Ensino Superior e o Discente do Século XXI: Realidade e Expectativas” e duração de três dias. Com palestras divididas entre asa norte e Taguatinga, o evento teve participação de diversos oradores de renome. Um deles foi André Gomyde, que abriu a noite de terça-feira (03) falando sobre suas previsões para as cidades e o ser humano do futuro. 
 			</p>
-			<!--<img class="dootdoot" src="./img/imagemSobre.jpg">-->
+
+
+<!--
+	
+	Ajeitar tamanho do container pra caber essa parte
+
+			<h3>Studies</h3>
+
+			<p class="studyTime">
+				1999 - Born (Amparo, São Paulo) <br>
+				2000 - Creche Garibaldo (Amparo, São Paulo) <br>
+				2001 - Colégio Phoenix (Amparo, São Paulo) <br>
+				200x - Colégio Villa Lobos (Amparo, São Paulo) <br>
+				200x - Colégio Rangel Pestana (Amparo, São Paulo) <br>
+				20xx - Colégio Phoenix (Amparo, São Paulo) <br>
+				2013 - Colégio Sigma (Águas Claras, Distrito Federal) <br>
+				2015 - Colégio La Salle (Águas Claras, Distrito Federal) <br>
+				2015 - Colégio Alub (Taguatinga, Distrito Federal) <br>
+				2017 - UniCeub - Comunicação Social (Taguatinga, Distrito Federal)
+			</p> ESTUDOS
+-->
+
+
 		</div>
 		<div id="botao2" class="tabcontent">
 			<h3>Projects</h3>
+			<br>
 			<div class="projects">		
-				<div class="colunaProjetos2">
-					<p>Web</p>
+				<div class="colunaProjetos1">
+					<p class="projectType">Code</p>
 					<div class="">
 						<div class=""></div>
 					</div>					
 				</div>				
-				<div class="colunaProjetos1">
-					<p>Texts</p>
+				<div class="colunaProjetos2">
+					<p class="projectType">Texts</p>
 					<div class="">
 						<div class=""></div>
 					</div>
 				</div>
 				<div class="colunaProjetos3">
-					<p>Film</p>
+					<p class="projectType">Films</p>
 					<div class="">
 						<div class=""></div>
 					</div>
@@ -71,36 +95,68 @@
 		</div>
 		<div id="botao3" class="tabcontent">
 			<h3>Skills & Tools</h3>
+			<br>
 			<div class="skills">
 				<div class="coding">
-					<p>Coding</p>
-					<div class="">
-						<div class=""></div>
+					<p class="skillname">Coding</p>
+					<br>
+					<div class="codingSkills">
+						<div class="">
+							<p> - HTML5 & CSS3</p>
+							<img src="">
+						</div>
+						<div class="">
+							<P> - Javascript</P>
+							<img src="">
+						</div>
+						<div class="">
+							<p> - Git/GitHub</p>
+							<img src="">
+						</div>
+						<div class="">
+							<p></p>
+						</div>
 					</div>
 				</div>
 				<div class="writing">
-					<p>Writing</p>
+					<p class="skillname">Writing</p>
+					<br>
 					<div class="">
-						<div class=""></div>
+						<div class=""><p> - Storytelling</p><img src=""></div>
+						<div class=""><p> - Journalistic</p><img src=""></div>
+						<div class=""><p> - Opinative</p><img src=""></div>
 					</div>
 				</div>
-				<div class="ferramentas">
-					<p>Tools</p>
+				<div class="tools">
+					<p class="skillname">Tools</p>
+					<br>
 					<div class="">
-						<div class=""></div>
+						<div class=""><p> - Sublime Text 3</p><img src=""></div>
+						<div class=""><p> - Trello</p><img src=""></div>
+						<div class=""><p> - Photoshop CS6</p><img src=""></div>
 					</div>
 				</div>
-				<div class="ferramentas">
-					<p>Languages</p>
+				<div class="languages">
+					<p class="skillname">Languages</p>
+					<br>
 					<div class="">
-						<div class=""></div>
+						<div class="">
+							<P> - English</P>
+							<img src="">
+						</div>
+						<div class="">
+							<p> - Français</p>
+							<img src="">
+						</div>
+						<div class="">
+							<P> - Português (pt-br)</P>
+						</div>
 					</div>
 				</div>				
 			</div>
 		</div>
 		<div id="botao4" class="tabcontent">
-			<h3>Contato</h3>
-			<br>
+			<h3 class="letsTalk">Let's Talk!</h3>
 			<form>
 				<p>Name:</p>
 				<input type="text" name="nomeContato" class="textosContato">
@@ -111,14 +167,14 @@
 				<br>
 				<br>
 				<input type="submit" name="enviarContato" class="enviarContato">
-
 			</form>
 		</div>		
 	</div>
 		<div class="bottom">
+			<BR><BR>
 			<p class="ano">2017</p>
-			<p class="versao">v 1.0</p>
-			<p>HTML5 CSS6 JAVASCRIPT</p>
+			<p class="versao">v 1.1</p>
+			<p>HTML5 CSS3 JAVASCRIPT</p>
 		</div>
 	</div>
 	</body>

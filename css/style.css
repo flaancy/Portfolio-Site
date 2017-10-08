@@ -68,15 +68,51 @@ body{
     height: 400px;
     margin: 0 auto;
 }
+
+.fotoMinha{
+    width: 200px;
+    height: 200px;
+}
+.studyTime{
+    text-align: left;
+}
 .projects{
+    text-align: -webkit-center;    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 100px;    
 }
+.projectType{
+    font-size: 20px;
+}
+.colunaProjetos1, .colunaProjetos2, .colunaProjetos3{
+    background-color: #FF6100; 
+    width: 170px;
+    height: 300px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
 .skills {
+    text-align: -webkit-center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 100px;
+}
+.skillname{
+    font-size: 20px;
+}
+.coding, .writing, .tools, .languages{
+    background-color: #FF6100; 
+    width: 160px;
+    height: 300px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.letsTalk{
+    padding-bottom: 10px;
 }
 
 .dootdoot{
@@ -114,15 +150,25 @@ body{
     font-family: 'Jura', sans-serif;
     font-size: 16px; 
 }
+.enviarContato:hover{
+    padding: 10px;
+    margin: 10px;
+    background-color: #FF6100;
+    color: white;
+    border: 1px solid #FF6100;
+    border-radius: 5px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px; 
+    cursor: pointer;
+}
 
 
 .bottom{
-    background-color: #FFF;
+    background-color: #FF6100;
     margin: 0 auto;
     padding: 30px;
     font-family: 'Jura', sans-serif;
     font-size: 15px;
-    color: black;
+    color: white;
     height: 150px;
-    border-top: 0.5px solid #BBBBBB;
 }
